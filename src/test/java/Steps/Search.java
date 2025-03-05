@@ -69,5 +69,7 @@ public class Search {
     public void openRelatedResults() {
         WebElement shirtSearch=driver.findElement(By.xpath("//*[@id=\"search_product\"]"));
         shirtSearch.click();
+        System.out.println(driver.getTitle());
     }
+
 }
